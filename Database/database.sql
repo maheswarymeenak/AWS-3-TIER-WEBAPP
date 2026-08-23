@@ -1,0 +1,4 @@
+USE social_app;
+
+ALTER TABLE posts ADD COLUMN media_url VARCHAR(500) NULL;
+ALTER TABLE posts ADD COLUMN media_type VARCHAR(10) NULL;
